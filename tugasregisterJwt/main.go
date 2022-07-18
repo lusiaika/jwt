@@ -33,7 +33,7 @@ func main() {
 
 	handler.InstallUserAPI(r)
 
-	r.Use()
+	
 	srv := &http.Server{
 		Handler: r,
 		Addr:    "127.0.0.1:8000",
